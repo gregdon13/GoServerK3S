@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-server-deployment
+  labels:
+    app: go-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: go-server
+  template:
+    metadata:
+      labels:
+        app: go-server
+    spec:
+      containers: 
+      - name: go-server
+        image: <dockerhub-username>/tutorial #replace the variable with your username on dockerhub
+        ports:
+        - containerPort: 8080
