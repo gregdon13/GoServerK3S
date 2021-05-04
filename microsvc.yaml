@@ -16,6 +16,6 @@ spec:
     spec:
       containers: 
       - name: go-server
-        image: <dockerhub-username>/tutorial #replace the variable with your username on dockerhub
+        image: xt0fer/go-service
         ports:
         - containerPort: 8080
