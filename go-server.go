@@ -44,7 +44,7 @@ var mainAppPage = `
 <html lang=en>
 <head>
 <meta charset=utf-8>
-<title>blah</title>
+<title>Schooners</title>
 <style type="text/css">
 body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
