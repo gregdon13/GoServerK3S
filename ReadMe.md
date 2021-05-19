@@ -85,5 +85,4 @@ http://raspberrypi.local:31807/app
 and see the results.
 
 # Where I'm at
-* go is functioning on the pi
-* now to set up the docker on it
+* server up and running! I was able to go to website and see the webpage that Kris had set up about Schooners
